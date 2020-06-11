@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo-div">
+          <img class="logo" src="images/bazino.png" alt="logo" />
+        </div>
+        <div class="d-flex flex-column container-menu">
+          <!-----------1-->
+          <div class="d-flex flex-row" style="flex-wrap: wrap;">
+            <nav class="first-menu_nav">
+              <ul class="d-flex flex-row ul-fmenu">
+                <li class="fmenu-item">
+                  <a href="#">بازینو</a>
+                </li>
+                <li class="fmenu-item">
+                  <a href="#">دوره ها</a>
+                </li>
+                <li class="fmenu-item">
+                  <a href="#">کارگاه ها</a>
+                </li>
+                <li class="fmenu-item">
+                  <a href="#">همکاران</a>
+                </li>
+                <li class="fmenu-item">
+                  <a href="#">وبلاگ</a>
+                </li>
+              </ul>
+            </nav>
+
+            <nav class="second-menu_nav">
+              <ul class="d-flex flex-row ul-smenu">
+                <li class="smenu-item">
+                  <a href="#"
+                    >دوره های وحید دانافر :
+                    <span class="span-number">15 دوره</span></a
+                  >
+                </li>
+                <li class="smenu-item">
+                  <a href="#">
+                    <i class="fa fa-heart-o"></i>
+                  </a>
+                </li>
+                <li class="smenu-item">
+                  <a href="#">
+                    <i class="fa fa-user-o"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="d-flex flex-row line-between"></div>
+          <!--------------------2-->
+
+          <div class="mega-menu">
+            <nav
+              class="navbar navbar-expand-lg navbar-light"
+              id="third-menu_nav"
+            >
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarText"
+                aria-controls="navbarText"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="ul-tmenu">
+                  <li class="tmenu-item">
+                    <img src="images/menu-1.svg" alt="" />
+                    <a class="toggle" href="javascript:void(0);"
+                      ><i
+                        class="plusMinus fa fa-plus-square"
+                        aria-hidden="true"
+                      ></i>
+                      برترین دوره ها</a
+                    >
+
+                    <!-------------->
+
+                    <ul class="submenu" id="inner">
+                      <li class="submenu-item">
+                        <ul class="submenu-top">
+                          <li class="submenu-top-item thumb-list">
+                            <a class="toggle" href="javascript:void(0);"
+                              ><i
+                                class="plusMinus fa fa-plus-square"
+                                aria-hidden="true"
+                              ></i
+                              >برترین دوره ها</a
+                            >
+
+                            <ul class="submenu-list" id="inner">
+                              <li>
+                                <img
+                                  class="submenu-thumbnail"
+                                  src="https://picsum.photos/id/1067/32/32"
+                                  alt="City breaks"
+                                />
+                                <a href="#">برترین دوره ها</a>
+                              </li>
+
+                              <li>
+                                <img
+                                  class="submenu-thumbnail"
+                                  src="https://picsum.photos/id/173/32/32"
+                                  alt="Adventure tours"
+                                />
+                                <a href="#">برترین دوره ها</a>
+                              </li>
+                              <li>
+                                <img
+                                  class="submenu-thumbnail"
+                                  src="https://picsum.photos/id/1038/32/32"
+                                  alt="Cruises"
+                                />
+                                <a href="#">برترین دوره ها</a>
+                              </li>
+                              <li>
+                                <img
+                                  class="submenu-thumbnail"
+                                  src="https://picsum.photos/id/1015/32/32"
+                                  alt="Beach holidays"
+                                />
+                                <a href="#">برترین دوره ها</a>
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li class="submenu-top-item desc-list">
+                            <a class="toggle" href="javascript:void(0);"
+                              ><i
+                                class="plusMinus fa fa-plus-square"
+                                aria-hidden="true"
+                              ></i
+                              >برترین دوره ها</a
+                            >
+
+                            <ul class="submenu-list" id="inner">
+                              <li>
+                                <a href="#">برترین دوره ها</a>
+                                <span class="submenu-desc">
+                                  دوره های وحید دانافر
+                                </span>
+                              </li>
+                              <li>
+                                <a href="#">برترین دوره ها</a>
+                                <span class="submenu-desc"
+                                  >دوره های وحید دانافر</span
+                                >
+                              </li>
+                              <li>
+                                <a href="#">برترین دوره ها</a>
+                                <span class="submenu-desc"
+                                  >دوره های وحید دانافر</span
+                                >
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li class="submenu-top-item icon-list">
+                            <a class="toggle" href="javascript:void(0);"
+                              ><i
+                                class="plusMinus fa fa-plus-square"
+                                aria-hidden="true"
+                              ></i
+                              >برترین دوره ها</a
+                            >
+
+                            <ul class="submenu-list" id="inner">
+                              <li>
+                                <a href="#">برترین دوره ها</a>
+                              </li>
+                              <li>
+                                <a href="#">برترین دوره ها</a>
+                              </li>
+                              <li>
+                                <a href="#">برترین دوره ها</a>
+                              </li>
+                              <li>
+                                <a href="#">برترین دوره ها</a>
+                              </li>
+                              <li>
+                                <a href="#">برترین دوره ها</a>
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li class="submenu-top-item">
+                            <a class="toggle" href="javascript:void(0);"
+                              ><i
+                                class="plusMinus fa fa-plus-square"
+                                aria-hidden="true"
+                              ></i
+                              >برترین دوره ها</a
+                            >
+
+                            <ul class="submenu-list" id="inner">
+                              <li><a href="#">دوره ها</a></li>
+                              <li><a href="#">دوره ها</a></li>
+                              <li><a href="#">دوره ها</a></li>
+                              <li><a href="#">دوره ها</a></li>
+                              <li><a href="#">دوره ها</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <!-- End .submenu-top -->
+                      </li>
+                      <!-- End .submenu-item-->
+
+                      <li class="submenu-item" id="bottom-li">
+                        <a class="toggle" href="javascript:void(0);"
+                          ><i
+                            class="plusMinus fa fa-plus-square"
+                            aria-hidden="true"
+                          ></i
+                          >برترین دوره ها</a
+                        >
+
+                        <ul class="submenu-bottom" id="inner">
+                          <li class="submenu-bottom-item">
+                            <figure>
+                              <img
+                                class="tumbnail-image"
+                                src="https://picsum.photos/id/1016/640/260"
+                              />
+                              <figcaption>
+                                <a href="#">برترین دوره ها</a>
+                              </figcaption>
+                            </figure>
+                          </li>
+                          <li class="submenu-bottom-item">
+                            <figure>
+                              <img
+                                class="tumbnail-image"
+                                src="https://picsum.photos/id/1040/640/260"
+                              />
+                              <figcaption>
+                                <a href="#">برترین دوره ها</a>
+                              </figcaption>
+                            </figure>
+                          </li>
+                          <li class="submenu-bottom-item">
+                            <figure>
+                              <img
+                                class="tumbnail-image"
+                                src="https://picsum.photos/id/1039/640/260"
+                              />
+                              <figcaption>
+                                <a href="#">برترین دوره ها</a>
+                              </figcaption>
+                            </figure>
+                          </li>
+                          <li class="submenu-bottom-item">
+                            <figure>
+                              <img
+                                class="tumbnail-image"
+                                src="https://picsum.photos/id/164/640/260"
+                              />
+                              <figcaption>
+                                <a href="#">برترین دوره ها</a>
+                              </figcaption>
+                            </figure>
+                          </li>
+                        </ul>
+                      </li>
+                      <!-- End .submenu-item -->
+                    </ul>
+
+                    <!------------->
+                  </li>
+                  <li class="tmenu-item">
+                    <img src="images/menu-2.svg" alt="" />
+                    <a class="toggle" href="javascript:void(0);"
+                      ><i
+                        class="plusMinus fa fa-plus-square"
+                        aria-hidden="true"
+                      ></i
+                      >برترین دوره ها</a
+                    >
+                  </li>
+                  <li class="tmenu-item">
+                    <img src="images/menu-3.svg" alt="" />
+                    <a class="toggle" href="javascript:void(0);"
+                      ><i
+                        class="plusMinus fa fa-plus-square"
+                        aria-hidden="true"
+                      ></i
+                      >برترین دوره ها</a
+                    >
+                  </li>
+                  <li class="tmenu-item">
+                    <img src="images/menu-4.svg" alt="" />
+                    <a class="toggle" href="javascript:void(0);"
+                      ><i
+                        class="plusMinus fa fa-plus-square"
+                        aria-hidden="true"
+                      ></i
+                      >برترین دوره ها</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </nav>
+
+            <nav class="fourth-menu_nav">
+              <ul class="d-flex flex-row ul-fmenu">
+                <li class="menu-item">
+                  <form action="#" class="form-search">
+                    <input type="search" class="input-search" />
+                    <button class="search-button">
+                      <i class="fa fa-search icon-search"></i>
+                    </button>
+                  </form>
+                </li>
+                <li class="fourthmenu-item">
+                  <a class="box-blue">
+                    موضوعات دوره ها
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <div class="content">
+        <article class="article">
+          <div class="slide-cadr">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="home-tab"
+                  data-toggle="tab"
+                  href="#home"
+                  role="tab"
+                  aria-controls="home"
+                  aria-selected="true"
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="profile-tab"
+                  data-toggle="tab"
+                  href="#profile"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="true"
+                ></a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="contact-tab"
+                  data-toggle="tab"
+                  href="#contact"
+                  role="tab"
+                  aria-controls="contact"
+                  aria-selected="true"
+                ></a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="about-tab"
+                  data-toggle="tab"
+                  href="#about"
+                  role="tab"
+                  aria-controls="about"
+                  aria-selected="true"
+                ></a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="home"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+              >
+                <h2 class="h2-tab">1. مرحله مقدماتی</h2>
+                <div class="tab-line active"></div>
+                <div class="tab-line"></div>
+                <div class="tab-line"></div>
+                <div class="tab-line"></div>
+                <div class="tab-line"></div>
+                <div class="tab-line"></div>
+                <div class="p-tab">
+                  <p>
+                    برای یک بازی بسیار ساده، احتیاجی به کدنویسی نخواهید داشت،
+                    اما برای یک بازی قابل قبول و جذاب به طور طبیعی باید بتوانید
+                    در حد نیاز خود برنامه نویسی انجام دهید، البته نگران نباشید
+                    چرا که این موتور بازی سازی از دو زبان بازی فوق العاده برای
+                    عرضه طراحی کنید...
+                  </p>
+                </div>
+                <a class="btn btn-primary btnNext btn-tab">مرحله بعدی</a>
+                <a class="more-products"
+                  >مشاهده دوره ها
+                  <div class="more-border"></div>
+                </a>
+              </div>
+              <!-------------------------------------------------->
+              <div
+                class="tab-pane fade"
+                id="profile"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+              >
+                <h2 class="h2-tab">2. مرحله دوم</h2>
+                <div class="tab-line"></div>
+                <div class="tab-line active"></div>
+                <div class="tab-line"></div>
+                <div class="tab-line"></div>
+                <div class="tab-line"></div>
+                <div class="tab-line"></div>
+                <div class="p-tab">
+                  <p>
+                    برای یک بازی بسیار ساده، احتیاجی به کدنویسی نخواهید داشت،
+                    اما برای یک بازی قابل قبول و جذاب به طور طبیعی باید بتوانید
+                    در حد نیاز خود برنامه نویسی انجام دهید، البته نگران نباشید
+                    چرا که این موتور بازی سازی از دو زبان بازی فوق العاده برای
+                    عرضه طراحی کنید...
+                  </p>
+                </div>
+
+                <a class="btn btn-primary btnNext btn-tab">مرحله بعدی</a>
+                <a class="btn btn-primary btnPrevious btn-tab">مرحله قبلی</a>
+                <a class="more-products"
+                  >مشاهده دوره ها
+                  <div class="more-border"></div>
+                </a>
+              </div>
+              <!--------------------->
+              <div
+                class="tab-pane fade"
+                id="contact"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
+                <h2 class="h2-tab">3. مرحله سوم</h2>
+                <div class="tab-line"></div>
+                <div class="tab-line"></div>
+                <div class="tab-line active"></div>
+                <div class="tab-line"></div>
+                <div class="tab-line"></div>
+                <div class="tab-line"></div>
+                <div class="p-tab">
+                  <p>
+                    برای یک بازی بسیار ساده، احتیاجی به کدنویسی نخواهید داشت،
+                    اما برای یک بازی قابل قبول و جذاب به طور طبیعی باید بتوانید
+                    در حد نیاز خود برنامه نویسی انجام دهید، البته نگران نباشید
+                    چرا که این موتور بازی سازی از دو زبان بازی فوق العاده برای
+                    عرضه طراحی کنید...
+                  </p>
+                </div>
+                <a class="btn btn-primary btnNext btn-tab">مرحله بعدی</a>
+                <a class="btn btn-primary btnPrevious btn-tab">مرحله قبلی</a>
+                <a class="more-products"
+                  >مشاهده دوره ها
+                  <div class="more-border"></div>
+                </a>
+              </div>
+
+              <div
+                class="tab-pane fade"
+                id="about"
+                role="tabpanel"
+                aria-labelledby="about-tab"
+              >
+                <h2 class="h2-tab">4. مرحله چهارم</h2>
+                <div class="tab-line"></div>
+                <div class="tab-line"></div>
+                <div class="tab-line"></div>
+                <div class="tab-line active"></div>
+                <div class="tab-line"></div>
+                <div class="tab-line"></div>
+                <div class="p-tab">
+                  <p>
+                    برای یک بازی بسیار ساده، احتیاجی به کدنویسی نخواهید داشت،
+                    اما برای یک بازی قابل قبول و جذاب به طور طبیعی باید بتوانید
+                    در حد نیاز خود برنامه نویسی انجام دهید، البته نگران نباشید
+                    چرا که این موتور بازی سازی از دو زبان بازی فوق العاده برای
+                    عرضه طراحی کنید...
+                  </p>
+                </div>
+                <a class="btn btn-primary btnPrevious btn-tab">مرحله قبلی</a>
+                <a class="more-products"
+                  >مشاهده دوره ها
+                  <div class="more-border"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <main class="main">
+          <div class="cadr-item background-color1">
+            <h2 class="cadr-header">دوره های آموزشی موتورهای بازی سازی</h2>
+            <i class="sprite sprite-top-course-1"></i>
+          </div>
+
+          <div class="cadr-item background-color2">
+            <h2 class="cadr-header">دوره های آموزشی نرم افزارهای گرافیکی</h2>
+            <i class="sprite sprite-top-course-2"></i>
+          </div>
+
+          <div class="cadr-item background-color3">
+            <h2 class="cadr-header">دوره های آموزشی ساخت صدا و موزیک</h2>
+            <i class="sprite sprite-top-course-3"></i>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/tab-slider.js"></script>
+    <script>
+      $(".toggle").click(function (e) {
+        e.preventDefault();
+
+        var $this = $(this);
+
+        if ($this.next().hasClass("show")) {
+          $this.next().removeClass("show");
+          $this.next().slideUp(350);
+        } else {
+          $this.parent().parent().find("li #inner").removeClass("show");
+          $this.parent().parent().find("li #inner").slideUp(350);
+          $this.next().toggleClass("show");
+          $this.next().slideToggle(350);
+        }
+      });
+    </script>
+    <script>
+      $(".toggle").click(function () {
+        $(this)
+          .find(".plusMinus")
+          .toggleClass("fa-plus-square fa-minus-square");
+      });
+    </script>
+  </body>
+</html>
